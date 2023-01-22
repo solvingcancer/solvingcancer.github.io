@@ -1,0 +1,31 @@
+export const Ref = ({id}) => {
+  return <a href={`#fn-${id}`} className="anchor"><sup>{id}</sup></a>
+}
+
+export const Footnote = ({id}) => {
+  return <a id={`fn-${id}`} className="footnote"><sup>{id}</sup></a>
+}
+
+# Solving cancer
+
+![](./foundry.jpeg)
+
+## Engineering a generalizable treatment for cancer
+
+The complexity of cancer suggests that there is no &ldquo;magic bullet&rdquo; to curing cancer. Yet we are still trapped in that mindset, marked by our obsession with finding monotherapies.
+
+Instead, we must consider not only the cancer cells themselves, but also their lineage, the tumor microenvironment, and the immune system. We also need to consider how cancer cells adapt to treatments, and the patient's innate responses to interventions.<Ref id="1"/>
+
+**The solution is to engineer multiple therapeutics that work cohesively** to defeat the multiple defenses of cancer, and to **design the treatment regimen**, not just the individual therapies.
+
+To accurately understand and assess our combination treatments, we need better models that recapitulate tumor biology. Currently, tumors-on-a-chip appear to be the most accurate and scalable approach.
+
+We also need to identify a wider range of drug targets, for both cancer cells and the tumor stroma. 
+
+Finally, we need to expand the number of therapeutic modalities so that we can use the right tool for the given constraints. Our toolkit will include, but is not limited to, synthetic chemistry, mechanical engineering, protein engineering, and synthetic biology.
+
+If you're interested in tackling cancer with us, [fill out our interest form](https://tinyurl.com/solvingcancer) and [join our mailing list](https://mailman.mit.edu:444/mailman/listinfo/solvingcancer-public) for more updates.
+
+---
+
+<Footnote id="1" /> It has been shown that metastasis often arises after surgery because the patient's wound-healing response inadvertently promotes the growth of already-seeded metastases.

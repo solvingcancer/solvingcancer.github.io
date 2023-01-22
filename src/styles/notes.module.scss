@@ -1,0 +1,42 @@
+@import "./fonts.scss";
+
+.mainContainer {
+    max-width: 80ch;
+    margin: 0 auto;
+    padding: 30px 20px 30px 20px;
+    font-family: $serif;
+
+    h1, h2, h3 {
+        font-family: $header;
+        font-weight: 600;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 12.5pt;
+    }
+
+    h2 {
+        border-bottom: 2px solid #666;
+    }
+
+    :global(.anchor) {
+        text-decoration: none;
+        font-size: 0.8em;
+    }
+
+    :global(.footnote) {
+        color: blue;
+    }
+
+    hr {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-top: 0.5px solid #ddd;
+    }
+}
+
+li {
+    margin-top: 0.125em;
+    margin-bottom: 0.125em;
+}
